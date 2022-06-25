@@ -60,6 +60,8 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("OBRIGADO POR UTILIZAR ESTA PROGAMA");
 Console.ResetColor();
 
+
+Console.BackgroundColor = ConsoleColor.White;
 Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.WriteLine("<3-----");
 Console.ResetColor();

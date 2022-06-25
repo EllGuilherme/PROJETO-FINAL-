@@ -21,7 +21,7 @@ public class Aritmetica
      { if (divisor == 0)
      
     {
-    Console.ForegroundColor = ConsoleColor.DarkRed;
+    Console.BackgroundColor = ConsoleColor.DarkRed;
         throw new Exception("Não é possível dividir por zero.");
     }
     Console.ResetColor();

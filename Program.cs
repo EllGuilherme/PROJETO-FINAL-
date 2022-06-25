@@ -81,7 +81,7 @@
 
         Console.Write("(A): ");
         a = Convert.ToDouble(Console.ReadLine());
-        Console.Write("(B):  ");
+        Console.Write("(B): ");
         b = Convert.ToDouble(Console.ReadLine());
 
         if (b == 0)
