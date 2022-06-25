@@ -1,33 +1,51 @@
-classe  pública, Aritmética;
+public class Aritmetica
+{
+    public static double Soma(double parcela1, double parcela2)
+    {
+        double total = parcela1 + parcela2;
+        return total;
+    }
+        public static double Subtracao(double minuendo, double subtraendo)
+    {
+        double diferenca = minuendo - subtraendo;
+        return diferenca;
+    }
 
-    public  static  double  Soma ( double  parcela1 , double  parcela2 )
+    public static double Multiplicacao(double fator1, double fator2)
     {
-        double  total  =  parcela1  +  parcela2 ;
-        retorno  total ;
+        double produto = fator1 * fator2;
+        return produto;
     }
-        public  static  double  Subtracao ( double  minuendo , double  subtraendo )
-    {
-        double  diferenca  =  minuendo  -  subtraendo ;
-        retornar  diferença ;
-    }
+     public static double Divisao(double dividendo, double divisor )
 
-    Public  static  double  Multiplicacao ( double  fator1 , double  fator2 )
+     { if (divisor == 0)
+     
     {
-        duplo  produto  =  fator1  *  fator2 ;
-        devolver  produto ;
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+        throw new Exception("Não é possível dividir por zero.");
     }
-     public  static  double  divisão ( double  dividendo , double  divisor )
+    Console.ResetColor();
 
-     { if ( divisor  ==  0 )
-    {
-        throw  new  Exception ( " Não é possível dividir por zero. " );
-    }
-    double  quociente   =  dividendo  /  divisor ;
-    retorno  quociente ;
+    double quociente  = dividendo / divisor;
+    return quociente;
      }
-     public  static double Exponenciação ( double  numero , double  potencia )
+    public static double Exponenciação(double numero, double potencia)
     {
-        potência  =  matemática . Pow ( número , 2 );
-        retornar  numero ;
+        potencia = Math.Pow(numero,2);
+        return numero;
     }
+public static double Radiciacao(double numeroBase, double indice)
+{
+    double raiz = Math.Pow(numeroBase, 1 / indice);
+    return raiz;
+}
+
+public static decimal Porcentagem(decimal  porcentagem,  decimal numero )
+    {
+        decimal resultado = porcentagem /100 * numero;
+        return porcentagem;
+    }
+
+
+}
 
