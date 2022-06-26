@@ -5,7 +5,6 @@ calculadora que faz 7 tipos de calculos matemáticos básico----Soma, Subtraçã
 
 [clique aqui para baixar o progama.](https://github.com/EllGuilherme/PROJETO-FINAL-/raw/main/PROJETO%20FINAL-CALCULADORA%20.zip)☺️
 
-créditos:
 desenvolvedor--
 Guilherme Ribeiro De Souza 
 -
